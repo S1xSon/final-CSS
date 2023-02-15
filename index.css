@@ -1,0 +1,149 @@
+/* Style for the header and navigation bar */
+.top-header {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .top-header .logo-icon-2 {
+    height: 40px;
+  }
+  
+  .top-header .logo-text {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .top-header .search-bar {
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+  
+  .top-header .form-control {
+    border-radius: 20px;
+    font-size: 16px;
+    height: 40px;
+    padding-left: 40px;
+  }
+  
+  .top-header .btn-search-back {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .top-header .btn-search {
+    background-color: #333;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    height: 40px;
+    margin-left: -1px;
+    padding: 20px 120px;
+  }
+  
+  .top-header .navbar-nav {
+    display: flex;
+  }
+  
+  .top-header .nav-item {
+    margin-left: 10px;
+  }
+  
+  .top-header .nav-link {
+    padding: 0;
+  }
+  
+  .top-header .nav-link i {
+    font-size: 24px;
+  }
+  
+  /* Style for the mobile navigation menu */
+  .nav-container {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    display: none;
+    height: 100%;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .nav-container .mobile-topbar-header {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .nav-container .mobile-topbar-header .logo-icon-2 {
+    height: 40px;
+  }
+  
+  .nav-container .mobile-topbar-header .logo-text {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .nav-container .topbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-container .topbar-nav .menu-title {
+    margin-left: 10px;
+  }
+  
+  .nav-container .parent-icon {
+    align-items: center;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+  }
+  
+  .nav-container .icon-color-1 {
+    background-color: #25b9c6;
+  }
+  
+  .nav-container .icon-color-2 {
+    background-color: #fb866a;
+  }
+  
+  .nav-container .has-arrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .nav-container .has-arrow:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .nav-container .has-arrow i {
+    font-size: 24px;
+  }
+
+  .logo-text {
+    padding: 10;
+  }
+
+  
+  /* Media query for small screens */
